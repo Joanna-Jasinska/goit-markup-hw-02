@@ -5,32 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="https://joanna-jasinska.github.io/goit-markup-hw-01/">
-        <h2>
+      <a href="https://joanna-jasinska.github.io/goit-markup-hw-02/">
+        <h2 class="company-name">
           <span class="regular-color">Web</span
           ><span class="accented-color">Studio</span>
         </h2>
       </a>
 
       <nav>
-        <a href="#agency">Agencja</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="#contact">Kontakt</a>
+        <a class="link1" href="./index.html">Agencja</a>
+        <a class="link1" href="./portfolio.html">Portfolio</a>
+        <a class="link1" href="#contact">Kontakt</a>
       </nav>
 
-      <a href="mailto:info@example.com">info@example.com</a>&nbsp;
+      <a class="link1" href="mailto:info@example.com">info@example.com</a>&nbsp;
 
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="link1" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
       <section class="banner1" id="agency">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
-        <input type="button" value="Zamów usługę" />
+        <button type="button" value="Zamów usługę">Zamów usługę</button>
       </section>
 
       <section class="upper-article" id="portfolio">
@@ -135,12 +141,14 @@
     </main>
     <footer id="contact">
       <a href="https://joanna-jasinska.github.io/goit-markup-hw-01/">
-        <h2>
+        <h2 class="company-name">
           <span class="regular-color">Web</span
           ><span class="accented-color">Studio</span>
         </h2>
       </a>
-      <address><strong> m. Warszawa, Aleje Jerozolimskie 21</strong></address>
+      <address class="hq-address">
+        <strong> m. Warszawa, Aleje Jerozolimskie 21</strong>
+      </address>
       <p>
         <a href="mailto:info@example.com">info@example.com</a>
       </p>
